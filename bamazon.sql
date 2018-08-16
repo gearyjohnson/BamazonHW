@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS bamazonDB;
+
 CREATE DATABASE bamazonDB; 
 
 USE bamazonDB; 
@@ -10,7 +12,7 @@ CREATE TABLE item (
     PRIMARY KEY (id)
 ); 
 
-NSERT INTO item (product, price, quantity)
+INSERT INTO item (product, price, quantity)
 VALUES ("Rayban sunglasses",150.00,10); 
 
 INSERT INTO item (product, price, quantity)

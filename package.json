@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "bamazon.js",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0",
+    "save": "^2.3.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,10 +22,5 @@
   "bugs": {
     "url": "https://github.com/gearyjohnson/BamazonHW/issues"
   },
-  "homepage": "https://github.com/gearyjohnson/BamazonHW#readme",
-  "dependencies": {
-    "inquirer": "^6.1.0",
-    "mysql": "^2.16.0",
-    "save": "^2.3.2"
-  }
+  "homepage": "https://github.com/gearyjohnson/BamazonHW#readme"
 }
